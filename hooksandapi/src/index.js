@@ -8,13 +8,15 @@ import UseReducer from './UseReducer/UseReducer';
 import UseReducer2 from './UseReducer/UseReducer2';
 import UseRef from './UseRef/UseRef'
 import ReducerAndContext from './ReducerAndContext/ReducerAndContext';
+import Parents from './Memo/Parents';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
+   {/* <React.StrictMode> */}
+ <Parents />
 
- <UseRef />
-
+ {/* <UseRef /> */}
   {/* <ReducerAndContext /> */}
  {/* <UseReducer2 /> */}
  {/* <UseReducer /> */}
@@ -25,7 +27,8 @@ root.render(
    </State>
    */}
 
-  </React.StrictMode>
+   {/* </React.StrictMode> */}
+</>
 );
 
 

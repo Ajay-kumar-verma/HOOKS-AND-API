@@ -36,11 +36,35 @@
 - it is used for calling Api or executing some task 
 
 
-# useMemo
+
+- Notes :- when we call Component or function 
+-  It gets executed ,store in memory  then return to ,from where it is called 
+- when we use memo it check for changes if not return last store value if yes re cal it then store and return   
+
+
+# useMemo  { return memorise value }
+- The React useMemo Hook returns a memoized value.
 - It is used to control partially Component 
 - It return component that can be used inside return    
 - rest of thing is similar to useEffect 
 - using we can stop exectuting a part of return statement 
+
+
+# memo 
+- The React useMemo Hook returns a memoized component.
+- when parent component is redering 
+- Its child component is auto get rendered unnessery 
+- for avoiding this we use memo
+- If no update or change Component does not render  
+
+
+# useCallback
+- The React useMemo Hook returns a memoized function .
+ - It retunr memorised function 
+
+
+
+
 
 
 **++++++++++++++++++++++++++++++++++++++++++++++++++++++++**
