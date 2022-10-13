@@ -1,11 +1,36 @@
-## Context Api 
+# useState 
+- It is sued for state managament 
+- when data gets updated it re render the component 
 
+
+# useReducer 
+- It is used to update the data iwth prev and current data
+- It is used for State management
+- It can be understood like Array reducer function 
+- It takes two parameter 
+- 1 previous State 2 initialState  
+- It return two Array value
+
+# useContext  
+- It is used for Context Api 
 - Create context Api 
 - provider 
 - useContext { for consumer  }
 
 
 
+# useEffect 
+- It is sued for handing side Effect 
+- we can execute whole block or we can stop from executing whole block 
+- using useEffect and its dependecies 
+- it is used for calling Api or executing some task 
+
+
+# useMemo
+- It is used to control partially Component 
+- It return component that can be used inside return    
+- rest of thing is similar to useEffect 
+- using we can stop exectuting a part of return statement 
 
 
 **++++++++++++++++++++++++++++++++++++++++++++++++++++++++**
