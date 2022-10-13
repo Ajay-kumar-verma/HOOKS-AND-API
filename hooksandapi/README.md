@@ -1,18 +1,24 @@
 # useState 
 - It is sued for state managament 
 - when data gets updated it re render the component 
+- when we have to manage 1 or 2 state then we can use this
+- no Logic or simple logic 
+- for local management 
 
 
 # useReducer 
 - It is used to update the data iwth prev and current data
 - It is used for State management
+- if we have to handle multiple state to handle then we can use this
+- when we have complex business logic 
+- For global managent 
 - It can be understood like Array reducer function 
 - It takes two parameter 
 - 1 previous State 2 initialState  
 - It return two Array value
 - If we have complex State to manage better choose usereducer 
- - It has function to manage it 
- - In useState we have to defined function  
+- It has function to manage it 
+- In useState we have to defined function  
 
 
 # useContext  

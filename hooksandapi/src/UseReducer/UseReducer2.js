@@ -13,7 +13,7 @@ const UseReducer2 = () => {
             case "decreament":
                 return {value:prevState.value-action.value};
             case "reset":
-                return {value:action.value};
+                return {value:action.value };
             default:
                 return {value:prevState.value};
         }
