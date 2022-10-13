@@ -6,15 +6,16 @@ import UseEffect from './useEffect/UseEffect';
 import UseMemo from './Usememo/UseMemo';
 import UseReducer from './UseReducer/UseReducer';
 import UseReducer2 from './UseReducer/UseReducer2';
-
+import UseRef from './UseRef/UseRef'
 import ReducerAndContext from './ReducerAndContext/ReducerAndContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <ReducerAndContext />
- 
 
+ <UseRef />
+
+  {/* <ReducerAndContext /> */}
  {/* <UseReducer2 /> */}
  {/* <UseReducer /> */}
  {/* <UseMemo /> */}
