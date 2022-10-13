@@ -36,7 +36,7 @@
 - it is used for calling Api or executing some task 
 
 
-
+=============================
 - Notes :- when we call Component or function 
 -  It gets executed ,store in memory  then return to ,from where it is called 
 - when we use memo it check for changes if not return last store value if yes re cal it then store and return   
