@@ -3,7 +3,8 @@ import context from './Context/Context'
 
 function App() {
 
-const data=useContext(context)
+const data=useContext(context);
+
  return (
   <>
    {

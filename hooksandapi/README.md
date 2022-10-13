@@ -10,6 +10,10 @@
 - It takes two parameter 
 - 1 previous State 2 initialState  
 - It return two Array value
+- If we have complex State to manage better choose usereducer 
+ - It has function to manage it 
+ - In useState we have to defined function  
+
 
 # useContext  
 - It is used for Context Api 

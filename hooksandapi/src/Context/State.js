@@ -8,6 +8,7 @@ const State = (props) => {
         mob:"987654343",
         class:"5B"
     }   
+    
   const [data,setData]=useState(Data)
 
 
