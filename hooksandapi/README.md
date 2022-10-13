@@ -33,10 +33,10 @@
 - It is sued for handing side Effect 
 - we can execute whole block or we can stop from executing whole block 
 - using useEffect and its dependecies 
-- it is used for calling Api or executing some task 
+- it is used for calling Api or executing some tas
 
+:stuck_out_tongue_winking_eye:
 
-=============================
 - Notes :- when we call Component or function 
 -  It gets executed ,store in memory  then return to ,from where it is called 
 - when we use memo it check for changes if not return last store value if yes re cal it then store and return   
