@@ -5,12 +5,14 @@ import State from './Context/State';
 import UseEffect from './useEffect/UseEffect';
 import UseMemo from './Usememo/UseMemo';
 import UseReducer from './UseReducer/UseReducer';
+import UseReducer2 from './UseReducer/UseReducer2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
  
- <UseReducer />
+ <UseReducer2 />
+ {/* <UseReducer /> */}
  {/* <UseMemo /> */}
  {/* <UseEffect /> */}
    {/* <State>
