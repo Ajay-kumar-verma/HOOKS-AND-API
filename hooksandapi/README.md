@@ -4,6 +4,10 @@
 - when we have to manage 1 or 2 state then we can use this
 - no Logic or simple logic 
 - for local management 
+- we should use UseState only when we want to get update and to perform some task
+- Example : If we are not perfoming operation over Email and Password 
+- we should not update on each input 
+- we should use useRef 
 
 
 # useReducer 
