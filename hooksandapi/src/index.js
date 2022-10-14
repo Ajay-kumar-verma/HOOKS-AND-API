@@ -17,10 +17,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
    {/* <React.StrictMode> */}
-  <UseState2 />
+  {/* <UseState2 /> */}
 
 {/* <UseRef2 /> */}
- {/* <UseState1 /> */}
+ <UseState1 />
  {/* <Parents /> */}
  {/* <UseRef /> */}
   {/* <ReducerAndContext /> */}
