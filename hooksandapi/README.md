@@ -1,4 +1,7 @@
 **https://courses.webdevsimplified.com/view/courses/react-hooks-simplified**
+
+>  <li>If we call function it execute same block ,but different memory</li>
+
 # useState 
 - It is sued for state managament 
 - when data gets updated it re render the component 
@@ -34,8 +37,9 @@
 
 
 
-# useEffect 
-- It is sued for handing side Effect 
+# useEffect
+- useEffect run after the DOM runs  
+- It is used for handing side Effect 
 - we can execute whole block or we can stop from executing whole block 
 - using useEffect and its dependecies 
 - it is used for calling Api or executing some tas
@@ -67,9 +71,18 @@
 
 # useCallback
 - The React useMemo Hook returns a memoized function .
- - It retunr memorised function 
+- It retunr memorised function 
 
 
+# useTransition 
+- it make ispending true till transition is executed 
+- when execution done it make ispending is false 
+- it increase rendereing 
+- use only when needed
+
+
+
+ 
 
 
 

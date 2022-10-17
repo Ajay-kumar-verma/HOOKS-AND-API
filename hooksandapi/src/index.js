@@ -14,14 +14,16 @@ import UseEffect2 from './useEffect/UseEffect2';
 import UseState1 from './UseState/UseState1'
 import UseRef2 from './UseRef/UseRef2';
 import UseState2 from './UseState/UseState2';
+import Usetransition from './useTransition/Usetransition';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
    {/* <React.StrictMode> */}
 
+  <Usetransition  />
 
- <UseEffect2 />
+ {/* <UseEffect2 /> */}
   {/* <UseState2 /> */}
 
 {/* <UseRef2 /> */}
