@@ -36,6 +36,6 @@ const x=   setInterval(() => {
     
   </>
       )
-}
+  }
 
 export default UseEffect2

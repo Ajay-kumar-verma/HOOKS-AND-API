@@ -11,6 +11,9 @@ import ReducerAndContext from './ReducerAndContext/ReducerAndContext';
 import Parents from './Memo/Parents';
 import UseEffect2 from './useEffect/UseEffect2';
 
+import UseState1 from './UseState/UseState1'
+import UseRef2 from './UseRef/UseRef2';
+import UseState2 from './UseState/UseState2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +22,10 @@ root.render(
 
 
  <UseEffect2 />
+  {/* <UseState2 /> */}
+
+{/* <UseRef2 /> */}
+ {/* <UseState1 /> */}
  {/* <Parents /> */}
  {/* <UseRef /> */}
   {/* <ReducerAndContext /> */}
