@@ -81,6 +81,8 @@
 - use only when needed
 
 
+# useLayoutEffect
+- it render before DOM render 
 
  
 

@@ -15,14 +15,26 @@ import UseState1 from './UseState/UseState1'
 import UseRef2 from './UseRef/UseRef2';
 import UseState2 from './UseState/UseState2';
 import Usetransition from './useTransition/Usetransition';
+import UseLayoutEffect from './useLayoutEffect/UseLayoutEffect'
+import Customhook from './CustomHook/Customhook';
+import UseLocalstorage from './CustomHook/UseLocalstorage'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <>
    {/* <React.StrictMode> */}
 
-  <Usetransition  />
 
+ 
+
+
+   <UseLocalstorage />
+  {/* <Customhook /> */}
+
+ {/* <UseLayoutEffect /> */}
+  {/* <Usetransition  /> */}
  {/* <UseEffect2 /> */}
   {/* <UseState2 /> */}
 
