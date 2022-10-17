@@ -1,11 +1,11 @@
-import React,{useEffect, useState} from 'react'
+import React,{useEffect,memo, useState} from 'react'
 import useStorage from './useStorage';
-const useStatic = (name) => {
+const UseStatic = (name) => {
 
 // console.log("Static component called ")    
 
     let [data,update]=useStorage(name);
-       data=JSON.parse(data);  
+        data=JSON.parse(data);  
 
 useEffect(()=>{
     window.addEventListener('scroll', () => {
@@ -21,9 +21,9 @@ useEffect(()=>{
 
 },[])
 
-return  [data,update];
+// return  [data,update];
 
 
 }
 
-export default useStatic
+export default UseStatic

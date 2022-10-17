@@ -1,20 +1,22 @@
-import React from 'react'
-import useStatic from './UseStatic';
+import React, { useState } from 'react'
+import UseStatic from './UseStatic';
 import useStorage from './useStorage'
 
-const UseLocalstorage = () => {
+const UseLocalstorage = ({x}) => {
 
 const [name,update]=useStorage("naam");
 
-useStatic("staicPage"); 
+    UseStatic("staicPage"); 
 
-// console.log("main component rendered ..!")
+console.log("uselocalStroage rendered ..!");
+
+
  return (
     <>
      
     <div style={{height:"2000px",padding:"1000px"}} > 
 
-    <input type="text" value={name} onChange={(e)=>{update(e.target.value)}} />
+    <input type="text" value={name} onChange={(e)=>{update(e.target.value);}} />
         
     </div>
 

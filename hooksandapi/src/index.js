@@ -18,6 +18,7 @@ import Usetransition from './useTransition/Usetransition';
 import UseLayoutEffect from './useLayoutEffect/UseLayoutEffect'
 import Customhook from './CustomHook/Customhook';
 import UseLocalstorage from './CustomHook/UseLocalstorage'
+import Main from './CustomHook/Main';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,9 +29,9 @@ root.render(
 
 
  
+ <Main />
 
-
-   <UseLocalstorage />
+   {/* <UseLocalstorage /> */}
   {/* <Customhook /> */}
 
  {/* <UseLayoutEffect /> */}
