@@ -34,6 +34,8 @@
 - we can execute whole block or we can stop from executing whole block 
 - using useEffect and its dependecies 
 - it is used for calling Api or executing some tas
+- useEffeect  execute the code only once , when it re render it doesnot execute again 
+
 
 :stuck_out_tongue_winking_eye:
 

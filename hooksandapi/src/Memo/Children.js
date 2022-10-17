@@ -1,13 +1,20 @@
-import React ,{memo} from 'react'
+import React ,{memo,useEffect} from 'react'
 import GrandChild from './GrandChild';
 
 const Children = ({count}) => {
+    
+   
+  useEffect(()=>{
     console.log("Children Component is rendered ..!");
-  
+  },[])  
+
+
     return (
    <>
-    <p>Count value is :
-     {count}
+    <p> Children  Count value is :
+     {count} 
+    
+    {console.log("child component is executed ..!")}
          </p>
    <div>This is Children Component </div>
     <GrandChild />

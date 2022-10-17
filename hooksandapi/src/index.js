@@ -9,13 +9,17 @@ import UseReducer2 from './UseReducer/UseReducer2';
 import UseRef from './UseRef/UseRef'
 import ReducerAndContext from './ReducerAndContext/ReducerAndContext';
 import Parents from './Memo/Parents';
+import UseEffect2 from './useEffect/UseEffect2';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
    {/* <React.StrictMode> */}
- <Parents />
 
+
+ <UseEffect2 />
+ {/* <Parents /> */}
  {/* <UseRef /> */}
   {/* <ReducerAndContext /> */}
  {/* <UseReducer2 /> */}
