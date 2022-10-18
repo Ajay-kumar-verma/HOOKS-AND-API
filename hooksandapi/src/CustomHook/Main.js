@@ -3,7 +3,7 @@ import UseLocalstorage from './UseLocalstorage'
 
 const Main = () => {
 
-    // console.log("main component rendered ..!")
+    console.log("main component rendered ..!")
 
   return (
     <div>

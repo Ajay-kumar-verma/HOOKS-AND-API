@@ -1,6 +1,7 @@
 import React,{useEffect,memo, useState} from 'react'
 import useStorage from './useStorage';
-const UseStatic = (name) => {
+
+const UseStatic = ({name}) => {
 
 // console.log("Static component called ")    
 
@@ -21,7 +22,6 @@ useEffect(()=>{
 
 },[])
 
-// return  [data,update];
 
 
 }
